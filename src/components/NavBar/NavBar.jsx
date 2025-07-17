@@ -11,7 +11,7 @@ return (
     <img className="logo" src={ropaLogo} alt="logo" />
     </Link>
 <ul className="categories">
-    <li><Link to="/category/inicio">Inicio</Link>  </li>
+   <li><Link to="/">Inicio</Link></li>
     <li> <Link to= "/category/nuevosIngresos" > Nuevos Ingresos </Link> 
     </li> 
     <li> <Link to= "/category/productos" > Productos </Link> </li>
