@@ -1,0 +1,52 @@
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.02);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.new-arrivals-container {
+  max-width: 600px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background-color: rosybrown;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  text-align: center;
+  animation: fadeInUp 1s ease-out, pulse 4s ease-in-out infinite;
+  transition: transform 0.3s ease;
+}
+
+.new-arrivals-container:hover {
+  transform: scale(1.01);
+}
+
+.new-arrivals-container h2 {
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.new-arrivals-message {
+  font-size: 1.2rem;
+  margin: 0.8rem 0;
+  font-weight: 600;
+}

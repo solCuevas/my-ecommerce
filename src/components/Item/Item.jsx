@@ -1,33 +1,24 @@
-
 import "./Item.css";
-
+import { Link } from "react-router-dom"; 
 
 const Item = ({ product }) => {
   return (
     <div className="product-card">
-      <a
-        href={`/detail/${product.id}`}
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+      <Link to={`/detail/${product.id}`}>
         <img src={product.image} alt={product.name} className="product-image" />
-      </a>
+      </Link>
 
       <div className="card-content">
         <h3>{product.name}</h3>
         <span className="product-price">${product.price}</span>
 
-        <a
-          href={`/detail/${product.id}`}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="more-info-link"
-        >
+        <Link to={`/detail/${product.id}`} className="more-info-link">
           Más información
-        </a>
+        </Link>
       </div>
     </div>
   );
 };
 
 export default Item;
+

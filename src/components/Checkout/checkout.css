@@ -1,0 +1,50 @@
+
+
+body {
+  background-color: white;
+}
+
+/* Contenedor principal */
+.checkout-container {
+  padding: 2rem;
+  max-width: 600px;
+  margin: 3rem auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  text-align: center;
+}
+
+/* Caja del mensaje de éxito */
+.order-success {
+  background-color: #fdf0fb;
+  border: 2px solid #d4edda;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Título del mensaje */
+.order-success h2 {
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #57151a;
+  text-align: center;
+}
+
+/* Párrafo con el ID */
+.order-success p {
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+  color: #571515;
+  text-align: center;
+}
+
+.order-success strong {
+  color: #5c0c10;
+  font-weight: bold;
+}
