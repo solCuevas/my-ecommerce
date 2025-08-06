@@ -16,4 +16,6 @@ React Icons – Íconos personalizados para mejorar la interfaz.
 React Spinners – Indicadores de carga (loaders) para mejorar UX.
 
 
+Deploy en Vercel:
 
+https://my-ecommerce-23.vercel.app/
