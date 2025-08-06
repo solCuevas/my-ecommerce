@@ -1,4 +1,4 @@
-import ropaLogo from "../../assets/logoRopa.png";
+import ropaLogo from "../../assets/LogoRopa.png";
 import CartWidget from "../CartWidget/CartWidget";
 import './NavBar.css';
 import { Link } from "react-router-dom";
