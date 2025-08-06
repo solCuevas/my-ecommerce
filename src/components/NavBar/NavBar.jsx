@@ -1,6 +1,6 @@
 import ropaLogo from "../../assets/LogoRopa.png";
 import CartWidget from "../CartWidget/CartWidget";
-import './NavBar.css';
+import './navbar.css';
 import { Link } from "react-router-dom";
 
 const NavBar = () => {
